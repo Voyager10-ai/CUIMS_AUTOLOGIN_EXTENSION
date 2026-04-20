@@ -6,7 +6,6 @@ I developed CU Auto Login, a **Chrome Extension** that automates the login proce
 
 - **Auto Login**: Automatically fills and submits the login form.
 - **Secure Storage**: Safely handles user credentials using `chrome.storage`.
-- **Intelligent OCR**: Uses Tesseract.js (via Offscreen document) to solve captchas automatically.
 - **Manifest V3**: Fully compliant with the latest Chrome extension standards.
 
 ## Installation
@@ -29,8 +28,7 @@ I developed CU Auto Login, a **Chrome Extension** that automates the login proce
 
 - **Offscreen API**: Implemented for Tesseract.js OCR to bypass service worker limitations in Manifest V3.
 - **Content Scripts**: Injected to interact with the login form securely.
-- **Image Pre-processing**: Optimized captcha handling for higher OCR accuracy.
-
+  
 ---
 
 Developed with ❤️ for CU Students.
